@@ -1,7 +1,7 @@
 {
   "name": "graphql-server-solution",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Project Name: GraphQL Server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -18,18 +18,30 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
     "express": "^4.17.1",
     "express-graphql": "^0.8.0",
     "express-swagger-generator": "^1.1.15",
-    "graphql": "^14.4.1",
-    "jest": "^24.8.0",
-    "mongodb-memory-server": "^5.1.5",
-    "mongoose": "^5.6.2",
+    "graphql": "^14.5.8",
+    "jest": "^24.9.0",
+    "mongodb-memory-server": "^5.2.11",
+    "mongoose": "^5.7.7",
     "mongoose-schema-jsonschema": "^1.2.1",
     "morgan": "^1.9.1",
     "require-directory": "^2.1.1",
     "supertest": "^4.0.2",
-    "uuid": "^3.3.2"
-  }
+    "uuid": "^3.3.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrian-Huebner-401-advanced-javascript/GraphQL-Lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adrian-Huebner-401-advanced-javascript/GraphQL-Lab/issues"
+  },
+  "homepage": "https://github.com/Adrian-Huebner-401-advanced-javascript/GraphQL-Lab#readme"
 }
